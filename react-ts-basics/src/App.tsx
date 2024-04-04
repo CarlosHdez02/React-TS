@@ -4,6 +4,7 @@ import image from "./assets/react.svg";
 import "./index.css";
 import { useState } from "react";
 import NewGoal from "./components/NewGoal.tsx";
+import Input from "./components/Input.tsx";
 
 export type CourseGoal = {
   title: string;
